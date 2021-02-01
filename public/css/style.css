@@ -1,0 +1,631 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+/* Login Page */
+.containers{
+    width:100%;
+    height:100%;
+    background-image: url('../shop/imgs/sky3.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.login-container{
+    position: relative;
+    top: 5%;
+    left:35%;
+    width:500px;
+}
+.login-form{
+    position: absolute;
+    top:250px;
+    left: 45px;
+    width: 100%;
+}
+.login-title{
+    position: absolute;
+    top:80px;
+    left:28%;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(221, 221, 221, 0.767);
+    text-align:center;
+}
+.login-form input{
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    outline: none;
+    border: none;
+    transition: all .3s ease-in-out;
+    background-color: rgba(221, 221, 221, 0.473);
+    border-radius: 10px;
+    color:rgb(42, 87, 84);
+    font-size:100%
+}
+.login-form input::placeholder{
+    color:rgba(0,0,0,.8);
+    letter-spacing: .4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.login-form input:focus{
+    border:1px solid rgb(22, 42, 41);
+}
+#login-btn{
+    margin-top: 50px;
+    background-color: rgba(32, 66, 64, 0.801);;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color:rgba(221, 221, 221, 0.767);
+    cursor: pointer;
+}
+.redir{
+    position: absolute;
+    top: 250px;
+}
+.register-text{
+    color: rgba(221, 221, 221, 0.767);;
+    letter-spacing: 1px;
+}
+.register-text a{
+    color: rgb(129, 67, 8);
+    letter-spacing: 0;
+}
+
+
+/* Register Page */
+.reg-page{
+    width:100%;
+    height:100%;
+    background-image: url('../shop/imgs/sky4.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.reg-container{
+    position: relative;
+    top:55px;
+    left:33%;
+    width:30%;
+    padding: 5px;
+}
+.reg-text{
+    margin-bottom: 45px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(32, 66, 64);
+    text-align:center;
+}
+.reg-text::after{
+    position: absolute;
+    content: "";
+    top: 80px;
+    left: 70px;
+    width: 330px;
+    height: 2px;
+    background-color: rgba(221, 221, 221, 0.26);
+}
+.reg-form input{
+    display: block;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all .3s ease-in-out;
+    background-color: rgba(221, 221, 221, 0.74);
+    border-radius: 10px;
+    color:rgb(42, 87, 84);
+    font-size:100%;
+    transition: all 1s linear;
+}
+.reg-form input:focus{
+    border: .5px solid rgb(32, 66, 64);
+}
+.gender input{
+    padding: 0px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+#reg-btn{
+    margin-top: 50px;
+    background-color: rgba(32, 66, 64, 0.89);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:rgba(221, 221, 221, 0.767);
+    cursor: pointer;
+}
+.reg-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Payment Page */
+.pay-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('../shop/imgs/pay2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+}
+.pay-text{
+    padding-top:10px ;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+    color:rgba(223, 134, 33, 0.719)
+}
+#payment{color: rgba(15, 15, 15, 0.925);}
+.pay-text::after{
+    position: absolute;
+    top:85px;
+    left:505px;
+    content: "";
+    width: 520px;
+    height:1px;
+    background-color:rgba(156, 131, 113,.4)
+}
+
+.pay-form{
+    width: 80%;
+    position: relative;
+    top:60px;
+    left:30px;
+}
+.pay-form input{
+    display: block;
+    width:40%;
+    padding: 15px;
+    font-size:20px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(171, 175, 175,.3);
+    color: rgb(27, 24, 25);
+}
+#checkout{
+    background-color: rgba(223, 134, 33, 0.719);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Shop Page */
+.clear{clear: both;}
+.shop_container{
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    margin: 0px;
+    width: 80%;
+}
+.search_box{
+    float: left;
+    padding: 10px;
+    margin-right: 33%;
+    margin-top: 10px;
+}
+#search_btn{
+    position: relative;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+#search_btn::placeholder{
+    color: rgba(182, 178, 178, 0.555);
+}
+.search_box::after{
+    position: absolute;
+    content: "";
+    top: 63px;
+    left: 25px;
+    width: 180px;
+    height: 1px;
+    background-color: rgba(165, 164, 164, 0.555);
+}
+.shop_logo {
+    padding: 10px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(192, 189, 189, 0.74);
+    text-shadow: 0px 0px 15px rgba(192, 189, 189, 0.74)
+}
+#m{color: rgba(223, 134, 33, 0.719);text-shadow: 0px 0px 15px rgba(223, 134, 33, 0.719);}
+.checkout_btn{
+    position: absolute;
+    top: 25px;
+    right: -5%;
+    padding: 10px 25px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(9, 133, 36, 0.801);
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.nav_list{
+    list-style-type: none;
+    position: absolute;
+    left: 29%;
+    margin: 10px;
+}
+.nav_list li{
+    float: left;
+    margin-right: 35px;
+    transition: 1s all ease-in-out;
+    padding: 10px;
+}
+.nav_list li:hover{
+    background-color: rgba(221, 221, 221, 0.94);
+    border-radius: 5px;
+}
+.nav_list li a{text-decoration: none;color: rgba(0, 0, 0, 0.3);transition: .5s all ease-in-out;padding: 10px;}
+.nav_list li a:hover{color: rgba(0, 0, 0, 0.592);text-decoration: underline;}
+.shop_container::after{
+    position: absolute;
+    content: "";
+    width: 124%;
+    height: 1px;
+    background-color: #ddd;
+    top: 160px;
+    left: -12%;
+}
+.header{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    padding: 55px 10px;
+    margin: 0px;
+    width: 80%;
+    height: 500px;
+    background-color: rgba(221, 221, 221, 0.692);
+    background-image: url('../shop/imgs/pay1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header h1{color: rgba(228, 121, 21, 0.8);}
+.shop_titles{
+    margin-left: 5%;
+}
+#s{padding-left: 5px; color: rgba(177, 175, 175, 0.932);}
+.header h3,p{
+    color:rgba(153, 117, 108, 0.801);
+    padding: 5px 0;
+    margin-top: 10px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+.header button{
+    margin-top: 150px;
+    padding: 10px 20px;
+    border: 1px solid rgba(77, 75, 75, 0.892);
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(223, 134, 33, 0.719);
+    transition: all .5s ease-in-out;
+}
+.checkout_btn a{text-decoration: none; color:#fff}
+.header button:hover{
+    background-color: rgba(212, 111, 28, 0.418);
+    color: rgba(223, 134, 33, 0.932);
+    border: 0px solid rgba(0, 0, 0, 0.3) ;
+}
+.products{
+    position: relative;
+    top: 28%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(224, 222, 222, 0.336);
+    padding: 15px;
+    color: rgba(223, 134, 33, 0.932);
+    letter-spacing: 2px;
+}
+.img_container{
+    float: left;
+    width: 200px;
+    height: 180px;
+    padding: 10px;
+    margin: 10px 10px 10px 20px;
+
+}
+.img_container img{
+    width: 200px;
+    height: 180px;
+    cursor: pointer;
+    opacity: .5;
+    transition: all .5s ease-in-out;
+}
+.img_container img:hover{
+   opacity: 1;
+}
+.news_overlay{
+    position: relative;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 500px;
+    margin-top:50px;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+.news_img{
+    background-image: url('../shop/imgs/news.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+footer p{color: rgba(221, 221, 221, 0.94) !important;font-size: 10px;}
+
+.quantity
+{
+    height: 30px;
+    width: 110px;
+    margin: 10px 0 0 0 ;
+    display: block;
+}
+.checkoutBg
+{
+    background-image: url('../shop/imgs/bye.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:100% ;
+    width: 100%;
+    height: 100%;
+}
+.legend
+{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(175, 175, 230);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    letter-spacing: 3px;
+    margin: 0 0 30px 0 ;
+}
+.logout {
+	box-shadow:inset 3px 22px 15px -11px #e67a73;
+	background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+	background-color:#e4685d;
+	border-radius:17px;
+	border:6px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-style:italic;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:-6px 0px 12px #b23e35;
+}
+.logout:hover {
+	background:linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+	background-color:#eb675e;
+}
+.logout:active {
+	position:relative;
+	top:1px;
+}
+
+/*cart */
+
+.bought_list_container ul, .ads ul{
+    list-style-type: none;
+}
+.bought_list_container ul li{
+    padding: 5px;
+}
+.bought_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.bought_item label{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    position: relative;
+    color: darkturquoise;
+}
+.bought_item label input[type="number"]{
+    width: 50px;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    background-color: rgba(245, 236, 236, 0.322);
+    color: darkturquoise;
+}
+#prod_total{
+    font-size: 20px;
+}
+#prod_total_amount{
+    font-size: 18px;
+}
+.total_amount label{
+    font-size: 25px;
+    color: rgba(79, 189, 79, 0.815);
+}
+.total_amount input{
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    border:none;
+    background-color: rgba(41, 245, 109, 0.177);
+}
+
+.ads_img{
+    width: 250px;
+    height: 250px;
+}
+.ads ul li{padding: 5px;
+    cursor: pointer;
+}
+.total_amount,.go_payment{
+    float: left;
+}
+.go_payment button{
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.cartBody
+{
+    background-image: linear-gradient(to top,rgb(255, 255, 255) ,rgba(73, 255, 209, 0.115));
+    background-repeat: no-repeat;
+}
+
+/* Show Product*/
+
+.imgs_container{
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+}
+.imgs_container img{
+    width: 100%;
+    height: 100%;
+}
+.product_name{
+    width:350px;
+}
+.prod_code{
+    font-weight: 700;
+    font-size: 12px;
+    opacity: .4;
+    display:block;
+    line-height: .5;
+    letter-spacing: 1.2px;
+}
+.rating{
+    margin-top: 15px;
+}
+.rating >span::before{
+    content: "★";
+    font-size: 20px;
+    color: #c7c5c5;
+}
+.rating:hover > span:before {
+    color: #e2c313;
+}
+#rating_bar > span:hover ~ span:before {
+    color: #c7c5c5;
+}
+.review{
+    position: relative;
+    top: -23px;
+    left: 120px;
+    color: rgba(59, 116, 221, 0.812);
+}
+#price_number{
+    font-size: 30px;
+    color: rgb(238, 40, 56);
+}
+#old_price{
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+#offer{
+    font-size: 17px;
+    background-color: rgba(241, 36, 36, 0.171);
+    padding: 10px;
+    width: 55%;
+    color: rgba(243, 18, 18, 0.856);
+    border-radius: 10px;
+}
+.color1,.color2,.color3,.color4{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color1{
+    background-color: red;
+}
+.color2{
+    background-color: purple;
+}
+.color3{
+    background-color: royalblue;
+}
+#in_stock{
+    color: seagreen;
+    text-shadow: 1px 1px 2px rgba(30, 216, 30, 0.384);
+    text-transform: capitalize;
+}
+.prod_description{
+    width: 90%;
+    color: rgb(148, 144, 144);
+}
+.quantity > label{
+    color:rgb(187, 184, 184);
+    text-transform: uppercase;
+}
+.quantity > input{
+    width: 45%;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 5px;
+    color: seagreen;
+    padding: 2px 5px;
+}
+.add_cart{width: 100%;}
+
+.add_cart button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
